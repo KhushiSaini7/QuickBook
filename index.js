@@ -31,8 +31,6 @@ mongoose.connection.on("connected", () => {
     console.log("mongodb connected! ") ;
  }) 
 
- 
-
 app.listen(8000, ()=> {
     
  console.log("Connected to backend.");
